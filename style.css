@@ -1,0 +1,141 @@
+/*-----------------*/
+/*---  memory   ---*/
+/*-----------------*/
+
+
+
+
+
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Frijole&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Shadows+Into+Light&family=ZCOOL+KuaiLe&display=swap');
+
+/* 
+font-family: 'Creepster', cursive;
+font-family: 'Frijole', cursive;
+font-family: 'Jim Nightshade', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'ZCOOL KuaiLe', cursive;*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.d-flex{display: flex;}
+
+h1{
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 0.8em;
+}
+
+h2{
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 0.8em;
+}
+
+h3{
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 0.8em;
+}
+
+body{
+background-image: radial-gradient(silver,lightpink);
+}
+	
+a{text-decoration: none;}
+
+li{list-style: none;}
+
+p{font-size: 2rem;}
+
+
+
+	
+/* <!---------------------------- BODY ----------------------------> */
+
+body{
+    color:orangered;
+    font-family: 'Frijole', cursive;
+    max-width: 1400px;
+    margin: 0 auto;
+	border: solid 1px red;
+}
+
+.page-title{
+color: darkred;
+font-family: 'Creepster', cursive;
+text-align: center;
+}
+
+.game-info-container{
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-container{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 10px;
+    margin: 50px;
+    justify-content: center;
+    }
+
+.card{
+background-color: black;
+height: 175px;
+width: 125px;
+/* margin: 10px; */
+
+    
+}
+
+/*<!------------------------------HEADER----------------> */
+
+/*<!--  logo (...)-->*/
+
+/*<!--  headernav (...)-->*/
+
+/*<!------------------------------MAIN----------------> */
+
+/*<!--  banner (...)-->*/
+
+/*<!--  section (...)-->*/
+
+/*<!--  article (...)-->*/
+
+/*<!--  aside  (...)-->*/
+
+
+/*<!------------------------------ FOOTER -------------------------------->*/
+
+
+
+
+
+/*________________________________responsive _______ @media___________________________________________*/
+
+
+
+@media all and (max-width: 1200px) and (min-width:600px)
+{
+    /*general*/
+	/*header*/
+	/*main*/
+	/*footer*/
+}
+
+@media all and (max-width: 600px)
+{	/*general*/
+	/*header*/
+	/*main*/
+	/*footer*/
+
+}
